@@ -15,48 +15,98 @@
     <title>NYC</title>
   </head>
   <body>
-    <header id="header">
-      <div class="container header py1">
-        <div class="logo">
+    <header id="header bg-sec">
+      <div class="container header py1 flex-justify-between">
+        <a href="./index.html" class="logo flex-basis-40">
           <img src="./img/woods-logo.svg" alt="logo" class="logo-img" />
-        </div>
+        </a>
 
-        <div class="contact-nav">
-          <div class="contact">
-            <div class="contact-info">
-              <i class="fa-solid fa-phone-flip phone-icon wd2 ht2 border-rounded-05"></i>
+        <div class="contact-nav flex-1 flex-col-g1-align-end">
+          <div class="contact flex-g1">
+            <div class="contact-info flex-g05 cursor transition">
+              <i
+                class="fa-solid fa-phone-flip phone-icon w2 h2 border-rounded-05 flex border-pri"
+              ></i>
               <p class="phoneno">212&nbsp;684&nbsp;2500</p>
             </div>
 
-            <div class="social-icons">
-              <a href="#" class="social-icon br50 wd2 ht2">
+            <div class="social-icons flex-g05">
+              <a
+                href="#"
+                class="social-icon transition br50 w2 h2 flex bg-pri color-sec"
+              >
                 <i class="fa-brands fa-facebook-f"></i>
               </a>
-              <a href="#" class="social-icon br50 wd2 ht2">
+              <a
+                href="#"
+                class="social-icon transition br50 w2 h2 flex bg-pri color-sec"
+              >
                 <i class="fa-brands fa-linkedin-in"></i>
               </a>
-              <a href="#" class="social-icon br50 wd2 ht2">
+              <a
+                href="#"
+                class="social-icon transition br50 w2 h2 flex bg-pri color-sec"
+              >
                 <i class="fa-brands fa-twitter"></i>
               </a>
             </div>
           </div>
 
           <nav>
-            <ul class="nav">
-              <li><a class="nav-link" href="#">Home</a></li>
+            <ul class="nav flex-g1">
               <li>
-                <a class="nav-link" href="#"
-                  >Firm People <i class="fa-solid fa-caret-down down-icon"></i
-                ></a>
+                <a
+                  class="nav-link transition text-uppercase color-dark"
+                  href="#"
+                  >Home</a
+                >
               </li>
-              <li>
-                <a class="nav-link" href="#"
+              <li class="drop-down">
+                <a
+                  class="nav-link transition text-uppercase color-dark"
+                  href="#"
+                  >Firm People
+                  <i
+                    class="fa-solid fa-caret-down down-icon color-pri transition"
+                  ></i>
+                </a>
+                <ul class="sub-menu">
+                  <li class="cursor"><a href="#">Hulla&nbsp;bulla</a></li>
+                  <li class="cursor"><a href="#">Menu Item one</a></li>
+                  <li class="cursor"><a href="#">Menu Item one</a></li>
+                  <li class="cursor"><a href="#">Menu Item one</a></li>
+                </ul>
+              </li>
+              <li class="drop-down">
+                <a
+                  class="nav-link transition text-uppercase color-dark"
+                  href="#"
                   >Practice areas
-                  <i class="fa-solid fa-caret-down down-icon"></i
+                  <i
+                    class="fa-solid fa-caret-down down-icon color-pri transition"
+                  ></i
                 ></a>
+                <ul class="sub-menu">
+                  <li class="cursor"><a href="#">Hulla&nbsp;bulla</a></li>
+                  <li class="cursor"><a href="#">Menu Item one</a></li>
+                  <li class="cursor"><a href="#">Menu Item one</a></li>
+                  <li class="cursor"><a href="#">Menu Item one</a></li>
+                </ul>
               </li>
-              <li><a class="nav-link" href="#">Blog</a></li>
-              <li><a class="nav-link" href="#">contact</a></li>
+              <li>
+                <a
+                  class="nav-link transition text-uppercase color-dark"
+                  href="#"
+                  >Blog</a
+                >
+              </li>
+              <li>
+                <a
+                  class="nav-link transition text-uppercase color-dark"
+                  href="#"
+                  >contact</a
+                >
+              </li>
             </ul>
           </nav>
         </div>
@@ -69,13 +119,17 @@
         autoplay
         loop
         muted
-        class="video"
+        class="video w100p h120vh"
         id="video"
       ></video>
 
-      <div class="text-overlay">
-        <div class="left-col">
-          <h1 class="tagline">
+      <div
+        class="text-overlay border-rounded-1 w90p mw flex-g5-justify-between"
+      >
+        <div
+          class="left-col p2 flex-basis-60 bg-sec-light border-brr-2 text-center"
+        >
+          <h1 class="tagline mb1 text-uppercase heading text-xlg">
             Creative Legal thinking <br />
             real world solutions
           </h1>
@@ -83,46 +137,56 @@
             >Practice areas <i class="fa-solid fa-arrow-right"></i
           ></a>
         </div>
-        <article class="right-col">
-          <h2 class="article-heading">Recent Media Coverage</h2>
+        <article
+          class="right-col flex-basis-40 bg-blue-light color-sec p2 border-rounded-1"
+        >
+          <h2 class="article-heading heading mb1">Recent Media Coverage</h2>
 
           <ul class="media-posts">
-            <li class="media-post">
-              <h3 class="media-agency-title">Brick Underground</h3>
-              <p class="media-post-desc">
+            <li
+              class="media-post mb1 border-bottom-transparent-2 transition cursor"
+            >
+              <h3 class="media-agency-title mb05">Brick Underground</h3>
+              <p class="media-post-desc pb05">
                 My co-op board approved funds to fix flood damage, but
                 management won’t pay up. What can I do?
               </p>
             </li>
-            <li class="media-post">
-              <h3 class="media-agency-title">Brick Underground</h3>
-              <p class="media-post-desc">
+            <li
+              class="media-post mb1 border-bottom-transparent-2 transition cursor"
+            >
+              <h3 class="media-agency-title mb05">Brick Underground</h3>
+              <p class="media-post-desc pb05">
                 What are the advantages of using an LLC to buy a condo in NYC?
               </p>
             </li>
-            <li class="media-post">
-              <h3 class="media-agency-title">Brick Underground</h3>
-              <p class="media-post-desc">
+            <li
+              class="media-post mb1 border-bottom-transparent-2 transition cursor"
+            >
+              <h3 class="media-agency-title mb05">Brick Underground</h3>
+              <p class="media-post-desc pb05">
                 Ask a Closing Lawyer- How long does it take to close on a Co-op?
               </p>
             </li>
           </ul>
 
-          <a href="#" class="all-media-posts"
+          <a
+            href="#"
+            class="all-media-posts pt1 pb05 color-sec border-bottom-transparent-2 transition cursor inline-blockS"
             >View All Media Coverage <i class="fa-solid fa-arrow-right"></i
           ></a>
         </article>
       </div>
     </div>
 
-    <section id="intro-section">
+    <section id="intro-section" class="pb00">
       <div class="intro-section container grid-c2-g4">
-        <div class="intro-section-text">
-          <h2 class="intro-section-text-heading heading">
+        <div class="intro-section-text align-self-center">
+          <h2 class="intro-section-text-heading heading mb1 text-xlg">
             A Firm Of Recognized Trial Lawyers, Experienced Negotiators and
             Strategic Advisors.
           </h2>
-          <p class="intro-section-text-desc">
+          <p class="intro-section-text-desc lh16">
             <strong>At Woods Lonergan, Our Mission is Simple:</strong> Provide
             cutting edge expertise and sound advice in select areas of the law
             for corporate, real estate and business clients. Woods Lonergan
@@ -132,76 +196,112 @@
           </p>
         </div>
 
-        <div class="section-img">
+        <div class="intro-section-img">
           <img src="./img/Group 1 (3).png" alt="" />
         </div>
       </div>
     </section>
 
-    <section id="services-section">
-      <div class="container services-section">
-        <a href="#" class="service">
+    <section id="services-section" class="pb00">
+      <div class="container services-section grid-c4-cg1-rg1">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="heading service-heading">Litigation</h3>
+            <h3 class="heading service-heading text-uppercase text-center">
+              Litigation
+            </h3>
           </article>
         </a>
-        <a href="#" class="service">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="service-heading heading">Corporate</h3>
+            <h3 class="heading service-heading text-uppercase text-center">
+              Corporate
+            </h3>
           </article>
         </a>
-        <a href="#" class="service">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="service-heading heading">real estate</h3>
+            <h3 class="heading service-heading text-uppercase text-center">
+              real estate
+            </h3>
           </article>
         </a>
-        <a href="#" class="service">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="service-heading heading">cooperative / condominiums</h3>
+            <h3 class="heading service-heading text-uppercase text-center">
+              cooperative / condominiums
+            </h3>
           </article>
         </a>
-        <a href="#" class="service">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="service-heading heading">insurance</h3>
+            <h3 class="heading service-heading text-uppercase text-center">
+              insurance
+            </h3>
           </article>
         </a>
-        <a href="#" class="service">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="service-heading heading">
+            <h3 class="heading service-heading text-uppercase text-center">
               food resturant and hospitality
             </h3>
           </article>
         </a>
-        <a href="#" class="service">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="service-heading heading">
+            <h3 class="heading service-heading text-uppercase text-center">
               intellectual property and technology
             </h3>
           </article>
         </a>
-        <a href="#" class="service">
+        <a
+          href="#"
+          class="service py8 px2 flex bg-blue-dark color-sec transition"
+        >
           <article>
-            <h3 class="service-heading heading">employment</h3>
+            <h3 class="heading service-heading text-uppercase text-center">
+              employment
+            </h3>
           </article>
         </a>
       </div>
     </section>
 
     <section id="about-section-1">
-      <div class="about-section container">
-        <div class="about-section-img">
+      <div class="about-section-1 grid-c2-g4 container">
+        <div class="about-section-1-img">
           <img src="./img/Group 1 (3).png" alt="" />
         </div>
 
-        <div class="about-section-text">
-          <p class="about-section-text-desc">
+        <div class="about-section-1-text align-self-center">
+          <p class="about-section-1-text-desc mb1 lh16">
             <strong>Tailored Approach to Clients’ Individual Needs.</strong>
             Exceptional Results at Competitive Rates. Our broad experience and
             size allow us to provide comprehensive legal services on matters
             ranging from commercial litigation to real estate matters, to
             corporate transactions and employment law.
           </p>
-          <p class="about-section-text-desc">
+          <p class="about-section-1-text-desc mb1">
             <strong>Years of Reputable Legal Service</strong>
             Engaging in business transactions, buying or selling commercial
             property, managing a condominium or cooperative, or facing an
@@ -219,46 +319,58 @@
 
     <section id="recent-cases-section">
       <div class="container recent-cases-section">
-        <h2 class=" section-title">
+        <h2 class="text-lg text-uppercase mb2 heading color-sec">
           Recent Case Results
         </h2>
 
-        <div class="case-results grid-c2-g2">
-          <article class="case-result">
-            <h4 class="recent-result">Recent Result</h4>
-            <h2 class="recent-result-heading heading">
+        <div class="case-results grid-c2-g2 mb2">
+          <article class="case-result p2 border-rounded-1 bg-sec">
+            <h4 class="recent-result mb1 pb05 border-bottom-pri-1">
+              Recent Result
+            </h4>
+            <h2 class="recent-result-heading heading mb1">
               Commercial Contract Litigation – Jury Trial Verdict
             </h2>
-            <p class="recent-result-desc">
+            <p class="recent-result-desc lh16">
               Our office handled a jury trial in the Supreme Court – New York
               County involving a contract dispute with liability claims of
               $1,600,000 pertaining to corporate buy-out financing, amendment to
               the agreements and novation of contract. The jury reached...
-              <span class="read-more-link"><a href="#">Read More</a></span>
+              <span class="read-more-link color-blue-dark text-sm fw-500"
+                ><a href="#">Read More</a></span
+              >
             </p>
           </article>
 
-          <article class="case-result">
-            <h4 class="recent-result">Recent Result</h4>
-            <h2 class="recent-result-heading heading">
+          <article class="case-result p2 border-rounded-1 bg-sec">
+            <h4 class="recent-result mb1 pb05 border-bottom-pri-1">
+              Recent Result
+            </h4>
+            <h2 class="recent-result-heading heading mb1">
               Commercial Contract Litigation – Jury Trial Verdict
             </h2>
-            <p class="recent-result-desc">
+            <p class="recent-result-desc lh16">
               Our office handled a jury trial in the Supreme Court – New York
               County involving a contract dispute with liability claims of
               $1,600,000 pertaining to corporate buy-out financing, amendment to
               the agreements and novation of contract. The jury reached...
-              <span class="read-more-link"><a href="#">Read More</a></span>
+              <span class="read-more-link color-blue-dark text-sm fw-500"
+                ><a href="#">Read More</a></span
+              >
             </p>
           </article>
         </div>
 
-        <div class="slider-controls">
-          <div class="prev-next-btns">
-            <button class="slider-btn prev-btn">
+        <div class="slider-controls flex-justify-between">
+          <div class="prev-next-btns flex-g1">
+            <button
+              class="slider-btn prev-btn border-pri color-dark w3 h3 br50 flex transition color-pri"
+            >
               <i class="fa-solid fa-arrow-left"></i>
             </button>
-            <button class="slider-btn next-btn">
+            <button
+              class="slider-btn next-btn border-pri color-dark w3 h3 br50 flex transition color-pri"
+            >
               <i class="fa-solid fa-arrow-right"></i>
             </button>
           </div>
@@ -271,32 +383,38 @@
       </div>
     </section>
 
-    <section id="testimonials-section">
+    <section id="testimonials-section" class="bg-blue-dark color-sec">
       <div class="container testimonials-section">
-        <h2 class="section-title heading ">
-          Client Testimonials
-        </h2>
+        <h2 class="text-lg text-uppercase heading pb2">Client Testimonials</h2>
 
-        <div class="testimonials">
-          <article class="testimonial">
-            <i class="fa-solid fa-quote-left quotes"></i>
+        <div class="testimonials grid-c4-c3">
+          <article
+            class="testimonial p4 border-rounded-2 bg-sec color-dark align-self-start"
+          >
+            <i
+              class="fa-solid fa-quote-left quotes text-xxlg color-pink-color"
+            ></i>
 
-            <p class="testimonial-text">
+            <p class="testimonial-text lh16 mb1">
               For years we have relied upon Woods Lonergan PLLC for our complex
               contract and corporate needs. Their entire legal team is sharp,
               responsive and professional; they have helped our company continue
               to flourish.
             </p>
-            <h3 class="testimonial-author">
+            <h3 class="testimonial-author mb2">
               — Eric Helms, President and Founder - Juice Generation
             </h3>
 
-            <div class="slider-controls">
-              <div class="prev-next-btns">
-                <button class="slider-btn prev-btn">
+            <div class="slider-controls flex-justify-between">
+              <div class="prev-next-btns flex-g1">
+                <button
+                  class="slider-btn prev-btn border-pri color-dark w3 h3 br50 flex transition"
+                >
                   <i class="fa-solid fa-arrow-left"></i>
                 </button>
-                <button class="slider-btn next-btn">
+                <button
+                  class="slider-btn next-btn border-pri color-dark w3 h3 br50 flex transition"
+                >
                   <i class="fa-solid fa-arrow-right"></i>
                 </button>
               </div>
@@ -314,14 +432,14 @@
       </div>
     </section>
 
-    <section id='about-section-2'>
+    <section id="about-section-2">
       <div class="container about-section-2 grid-c2-g4">
         <div class="left-col">
           <article class="about-article">
-            <h2 class="about-article-heading heading">
+            <h2 class="about-article-heading heading mb1">
               New York City Business & Corporate Attorneys
             </h2>
-            <p class="about-article-text">
+            <p class="about-article-text mb2 lh16">
               <strong>We are trusted business advisors.</strong> Given that the
               contemporary business landscape is constantly evolving, it takes a
               seasoned corporate attorney to help you stay ahead of the game.
@@ -332,14 +450,16 @@
 
           <img
             src="./img/nyc-business-lg.jpg"
-            class="about-article-img"
+            class="about-article-img border-rounded-2"
             alt=""
           />
         </div>
         <div class="right-col">
-          <article class="about-article">
-            <h2 class="about-article-heading heading">Commercial Litigation</h2>
-            <p class="about-article-text">
+          <article class="about-article mb1 border-bottom-grey">
+            <h2 class="about-article-heading heading mb05">
+              Commercial Litigation
+            </h2>
+            <p class="about-article-text pb1 lh16 text-sm">
               We win when our clients win. We meet our clients’ objectives by
               choosing efficient solutions whether it is pre-trial settlement or
               trial. Our trial attorneys zealously help clients resolve all
@@ -352,9 +472,11 @@
               outcome.
             </p>
           </article>
-          <article class="about-article">
-            <h2 class="about-article-heading heading">Business Formation</h2>
-            <p class="about-article-text">
+          <article class="about-article mb1 border-bottom-grey">
+            <h2 class="about-article-heading heading mb05">
+              Business Formation
+            </h2>
+            <p class="about-article-text pb1 lh16 text-sm">
               We advise clients on forming and qualifying business entities
               (e.g., Limited Liability Company, corporation, partnership), draft
               by-laws, declarations, and other essential documents, and
@@ -363,10 +485,10 @@
             </p>
           </article>
           <article class="about-article">
-            <h2 class="about-article-heading heading">
+            <h2 class="about-article-heading heading mb05">
               Corporate Transactions
             </h2>
-            <p class="about-article-text">
+            <p class="about-article-text lh16 text-sm">
               Our business attorneys regularly structure broad range of
               transactions (e.g., mergers and acquisitions, joint ventures, and
               property transactions), negotiate and draft letters of intent and
@@ -379,14 +501,14 @@
       </div>
     </section>
 
-    <section id="about-section-3">
+    <section id="about-section-3" class="bg-grey-2">
       <div class="container about-section-3 grid-c2-g4">
         <div class="left-col">
           <article class="about-article">
-            <h2 class="about-article-heading heading">
+            <h2 class="about-article-heading heading mb1">
               Real Estate Attorneys Serving the Greater New York City Area
             </h2>
-            <p class="about-article-text">
+            <p class="about-article-text mb2 lh16">
               Our Real Estate Department has decades of experience advising
               clients who are buying, selling, leasing, financing, developing,
               or investing in residential and commercial property including
@@ -402,47 +524,49 @@
             </p>
 
             <ul class="key-points">
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Quiet title
-                actions
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i> Quiet
+                title actions
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i>
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i>
                 Landlord/tenant disputes
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Land use and
-                zoning disputes
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i> Land
+                use and zoning disputes
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Easement
-                disputes
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i>
+                Easement disputes
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Partition
-                actions
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i>
+                Partition actions
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Title
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i> Title
                 defects/insurance Litigation
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Foreclosures
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i>
+                Foreclosures
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Fraudulent
-                conveyances
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i>
+                Fraudulent conveyances
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Breach of
-                contract
+              <li class="point text-sm">
+                <i class="fa-solid fa-circle-right point-icon mt025"></i> Breach
+                of contract
               </li>
             </ul>
           </article>
         </div>
-        <div class="right-col">
+
+        <div class="right-col p2 border-rounded-2 bg-sec">
           <article class="about-article">
-            <p class="about-article-text">
+            <p class="about-article-text lh16 mb2">
               The attorneys at Woods Lonergan structure and negotiate the most
               complex and sophisticated transactions, resolve disputes through
               arbitration, mediation, and litigation, and work to help our
@@ -453,26 +577,34 @@
               matters including:
             </p>
 
-            <ul class="key-points">
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Leasing
-                arrangements (e.g., sale-leasebacks, ground leases,
+            <ul class="key-points grid-c2-g1">
+              <li class="point text-sm flex-g05-align-start mb1">
+                <i
+                  class="fa-solid fa-circle-right point-icon mt025 color-pri"
+                ></i>
+                Leasing arrangements (e.g., sale-leasebacks, ground leases,
                 build-to-suit leases, office leases, retail and restaurant
                 leases)
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Financing
-                (e.g., syndicated mortgage loans, bond-type financing, conduit
-                financing, and other complex lending vehicles)
+              <li class="point text-sm flex-g05-align-start mb1">
+                <i
+                  class="fa-solid fa-circle-right point-icon mt025 color-pri"
+                ></i>
+                Financing (e.g., syndicated mortgage loans, bond-type financing,
+                conduit financing, and other complex lending vehicles)
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Developing
-                commercial property (e.g., construction contracts, disputes,
-                easements, mechanics liens, defects)
+              <li class="point text-sm flex-g05-align-start mb1">
+                <i
+                  class="fa-solid fa-circle-right point-icon mt025 color-pri"
+                ></i>
+                Developing commercial property (e.g., construction contracts,
+                disputes, easements, mechanics liens, defects)
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Negotiating
-                and preparing purchase and sale agreements
+              <li class="point text-sm flex-g05-align-start mb1">
+                <i
+                  class="fa-solid fa-circle-right point-icon mt025 color-pri"
+                ></i>
+                Negotiating and preparing purchase and sale agreements
               </li>
             </ul>
           </article>
@@ -482,72 +614,78 @@
 
     <section id="blog-posts-section">
       <div class="container blog-posts-section">
-        <h2 class="blog-posts-title heading">Recent Blog Posts</h2>
+        <h2 class="blog-posts-title heading mb2">Recent Blog Posts</h2>
 
-        <div class="blog-posts">
-          <article class="blog-post">
+        <div class="blog-posts grid-c3-g2">
+          <article class="blog-post border-rounded-2 box-shadow">
             <div class="blog-post-img">
               <img
                 src="./img/iStock-1168902334-430x236.jpg"
                 alt=""
-                class="blog-post-img-img"
+                class="blog-post-img-img border-tlr-2"
               />
             </div>
 
-            <div class="blog-post-text">
-              <p class="blog-post-category">Business Law</p>
-              <h2 class="blog-post-title heading">
+            <div class="blog-post-text p2">
+              <p class="blog-post-category pb05 border-bottom-pri-1">
+                Business Law
+              </p>
+              <h2 class="blog-post-title heading py2 text-md">
                 What Your Company Needs to Know When There Is Tortious
                 Interference with a Business Relationship By A Competitor
               </h2>
-              <div class="blog-post-controls">
-                <a href="#" class="btn-cta read-more"
+              <div class="blog-post-controls flex-justify-end">
+                <a href="#" class="btn-cta read-more mla py075 px15"
                   >Read Full Article
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
             </div>
           </article>
-          <article class="blog-post">
+          <article class="blog-post border-rounded-2 box-shadow">
             <div class="blog-post-img">
               <img
                 src="./img/iStock-1168902334-430x236.jpg"
                 alt=""
-                class="blog-post-img-img"
+                class="blog-post-img-img border-tlr-2"
               />
             </div>
 
-            <div class="blog-post-text">
-              <p class="blog-post-category">Business Law</p>
-              <h2 class="blog-post-title heading">
+            <div class="blog-post-text p2">
+              <p class="blog-post-category pb05 border-bottom-pri-1">
+                Business Law
+              </p>
+              <h2 class="blog-post-title heading py2 text-md">
                 What Your Company Needs to Know When There Is Tortious
                 Interference with a Business Relationship By A Competitor
               </h2>
-              <div class="blog-post-controls">
-                <a href="#" class="btn-cta read-more"
+              <div class="blog-post-controls flex-justify-end">
+                <a href="#" class="btn-cta read-more mla py075 px15"
                   >Read Full Article
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
               </div>
             </div>
           </article>
-          <article class="blog-post">
+          <article class="blog-post border-rounded-2 box-shadow">
             <div class="blog-post-img">
               <img
                 src="./img/iStock-1168902334-430x236.jpg"
                 alt=""
-                class="blog-post-img-img"
+                class="blog-post-img-img border-tlr-2"
               />
             </div>
 
-            <div class="blog-post-text">
-              <p class="blog-post-category">Business Law</p>
-              <h2 class="blog-post-title heading">
+            <div class="blog-post-text p2">
+              <p class="blog-post-category pb05 border-bottom-pri-1">
+                Business Law
+              </p>
+              <h2 class="blog-post-title heading py2 text-md">
                 What Your Company Needs to Know When There Is Tortious
                 Interference with a Business Relationship By A Competitor
               </h2>
-              <div class="blog-post-controls">
-                <a href="#" class="btn-cta read-more"
+              <div class="blog-post-controls flex-justify-end">
+                <a href="#" class="btn-cta read-more mla py075 px15"
                   >Read Full Article
                   <i class="fa-solid fa-arrow-right"></i>
                 </a>
@@ -558,13 +696,13 @@
       </div>
     </section>
 
-    <section id="about-section-4">
+    <section id="about-section-4" class="bg-blue-dark">
       <div class="container about-section-4 grid-c2-g4">
-        <div class="left-col">
-          <h2 class="heading about-section-4-title">
+        <div class="left-col color-grey-2">
+          <h2 class="heading about-section-4-title mb1">
             Representing Managers & Owners of NYC Condominiums & Cooperatives
           </h2>
-          <p class="about-section-4-desc">
+          <p class="about-section-4-desc mb2 lh16">
             At Woods Lonergan we have a dedicated Department that service as
             counsel to condominium and cooperative boards regarding all types of
             legal and business matters. Our condo and co-op attorneys regularly
@@ -578,7 +716,9 @@
             lawsuits by and against third party vendors representing the
             cooperatives and condominiums.
           </p>
-          <a href="#" class="btn-cta">more about condos and coops</a>
+          <a href="#" class="btn-cta about-section-4-btn-cta"
+            >more about condos and coops <i class="fa-solid fa-arrow-right"></i
+          ></a>
         </div>
         <div class="right-col">
           <img src="./img/Group 1 (3).png" alt="" class="about-section-4-img" />
@@ -586,14 +726,14 @@
       </div>
     </section>
 
-    <section id="about-section-2">
-      <div class="container about-section-2 grid-c2-g4">
+    <section id="about-section-5">
+      <div class="container about-section-5 grid-c2-g4">
         <div class="left-col">
-          <article class="about-article">
-            <h2 class="about-article-heading heading">
+          <article class="about-section-5-article">
+            <h2 class="about-section-5-article-heading heading mb1">
               New York City Employment Lawyers
             </h2>
-            <p class="about-article-text">
+            <p class="about-section-5-article-text mb2 lh16">
               Despite the fact that workplaces in New York are governed by
               myriad federal, state, and local laws, employment-related disputes
               are commonplace. From wage and hour violations to wrongful
@@ -605,41 +745,47 @@
 
           <img
             src="./img/nyc-business-lg.jpg"
-            class="about-article-img"
+            class="about-section-5-article-img border-rounded-2"
             alt=""
           />
         </div>
         <div class="right-col">
-          <article class="about-article">
-            <h2 class="about-article-heading heading">Wage and Hour Claims</h2>
-            <p class="about-article-text">
+          <article class="about-section-5-article mb1 border-bottom-grey">
+            <h2 class="about-section-5-article-heading heading mb05">
+              Wage and Hour Claims
+            </h2>
+            <p class="about-section-5-article-text pb1 text-sm lh16">
               Our attorneys handle minimum wage violations, employee
               misclassification, unpaid overtime, commissions, bonuses,
               prevailing wage disputes, and other claims brought under the Fair
               Labor Standards Act (FLSA) and New York State Labor Law.
             </p>
           </article>
-          <article class="about-article">
-            <h2 class="about-article-heading heading">
+          <article class="about-section-5-article mb1 border-bottom-grey">
+            <h2 class="about-section-5-article-heading heading mb05">
               Wrongful Termination/Retaliation
             </h2>
-            <p class="about-article-text">
+            <p class="about-section-5-article-text pb1 text-sm lh16">
               Although New York is an “at-will” employment state, workers cannot
               be terminated for discriminatory or unlawful reasons or in breach
               of an employment contract.
             </p>
           </article>
-          <article class="about-article">
-            <h2 class="about-article-heading heading">Severance Agreements</h2>
-            <p class="about-article-text">
+          <article class="about-section-5-article mb1 border-bottom-grey">
+            <h2 class="about-section-5-article-heading heading mb05">
+              Severance Agreements
+            </h2>
+            <p class="about-section-5-article-text pb1 text-sm lh16">
               Our employment lawyers regularly review, negotiate, and prepare
               severance agreements, including non-compete and non-solicit
               clauses and waivers.
             </p>
           </article>
-          <article class="about-article">
-            <h2 class="about-article-heading heading">Workers’ Compensation</h2>
-            <p class="about-article-text">
+          <article class="about-section-5-article">
+            <h2 class="about-section-5-article-heading heading mb05">
+              Workers’ Compensation
+            </h2>
+            <p class="about-section-5-article-text pb1 text-sm lh16">
               Workers who have been injured on the job are covered under the
               state worker’s compensation program and protected from employment
               retaliation for pursuing a worker’s comp claim (e.g., denial of
@@ -652,72 +798,73 @@
       </div>
     </section>
 
-    <section id="about-section-3">
-      <div class="container about-section-3 grid-c2-g4">
+    <section id="about-section-6" class="bg-grey-2">
+      <div class="container about-section-6 grid-c2-g4">
         <div class="left-col">
-          <article class="about-article">
-            <h2 class="about-article-heading heading">
+          <article class="about-section-6-article">
+            <h2 class="about-section-6-article-heading heading mb1">
               New York City Insurance Litigation & Defense Attorneys
             </h2>
-            <p class="about-article-text">
+            <p class="about-section-6-article-text mb2">
               At Woods Lonergan PLLC, we represent prominent insurance carriers
               and brokerages on a wide range of complex coverage and defense
               matters, such as:
             </p>
 
             <ul class="key-points-single-col">
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Quiet title
-                actions
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Quiet title actions
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i>
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
                 Landlord/tenant disputes
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Land use and
-                zoning disputes
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Land use and zoning disputes
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Easement
-                disputes
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Easement disputes
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Partition
-                actions
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Partition actions
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Title
-                defects/insurance Litigation
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Title defects/insurance Litigation
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Foreclosures
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Foreclosures
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Fraudulent
-                conveyances
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Fraudulent conveyances
               </li>
-              <li class="point">
-                <i class="fa-solid fa-circle-right point-icon"></i> Breach of
-                contract
+              <li class="point mb05 fw-500 flex-g05-justify-start-align-center">
+                <i class="fa-solid fa-circle-right point-icon color-pri"></i>
+                Breach of contract
               </li>
             </ul>
           </article>
         </div>
 
-        <div class="border-img">
-          <img src="./img/cpnf.png" alt="" class="bordered-img" />
+        <div class="about-section-6-img">
+          <img src="./img/cpnf.png" alt="" class="about-section-6-img-img" />
         </div>
       </div>
     </section>
 
     <section id="contact-us-section">
-      <div class="container contact-us-section">
-        <div class="contact-us-left">
-          <h2 class="heading contact-us-title">
+      <div class="container contact-us-section grid-c5-c4-g2">
+        <div class="contact-us-left border-rounded-2 p4 bg-blue-dark color-sec">
+          <h2 class="heading contact-us-title mb1">
             Contact Our Experienced New York Business & Corporate Attorneys
           </h2>
-          <p class="contact-us-desc">
+          <p class="contact-us-desc mb15 lh16">
             Since 1993, Woods Lonergan PLLC has provided our clients with
             intelligent and cost-effective representation on all types of
             transactional and litigation matters. When you become our client, we
@@ -727,50 +874,54 @@
             broad variety of matters. Contact our office today to set up an
             appointment.
           </p>
-          <h4 class="key-points-title">
+          <h4 class="key-points-title mb15">
             What Makes Us Distinguished in Practice:
           </h4>
 
           <ul class="key-points">
             <li class="point">
-              <i class="fa-solid fa-circle-right point-icon"></i> Years of
+              <i class="fa-solid fa-circle-right point-icon mt025"></i> Years of
               Acquired <br />
               Reputation
             </li>
             <li class="point">
-              <i class="fa-solid fa-circle-right point-icon"></i>
+              <i class="fa-solid fa-circle-right point-icon mt025"></i>
               Tailored Approach To Client’s Individual Needs
             </li>
             <li class="point">
-              <i class="fa-solid fa-circle-right point-icon"></i> Competitive
-              Costs
+              <i class="fa-solid fa-circle-right point-icon mt025"></i>
+              Competitive Costs
             </li>
             <li class="point">
-              <i class="fa-solid fa-circle-right point-icon"></i> Trial
+              <i class="fa-solid fa-circle-right point-icon mt025"></i> Trial
               Expertise
             </li>
             <li class="point">
-              <i class="fa-solid fa-circle-right point-icon"></i> Frequent
+              <i class="fa-solid fa-circle-right point-icon mt025"></i> Frequent
               Communications
             </li>
             <li class="point">
-              <i class="fa-solid fa-circle-right point-icon"></i> Advising and
-              Consulting
+              <i class="fa-solid fa-circle-right point-icon mt025"></i> Advising
+              and Consulting
             </li>
           </ul>
         </div>
-        <div class="contact-us-right">
-          <article class="contact-info">
-            <h2 class="contact-info-title heading">Our Office Location</h2>
+        <div
+          class="contact-us-right align-self-center border-rounded-2 box-shadow"
+        >
+          <article class="contact-info p2 flex">
+            <h2 class="contact-info-title heading mr2 pr2 border-right-grey">
+              Our Office Location
+            </h2>
 
             <article class="address-phone">
-              <p class="address">
+              <p class="address mb1">
                 280 Madison Avenue, Suite 300 New York, NY 10016
               </p>
               <p class="phone"><strong>Phone:</strong> 212.684.2500</p>
             </article>
           </article>
-          <div class="map">
+          <div class="map w100p border-brr-2">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3022.484263414818!2d-73.98243958509428!3d40.751372543143624!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25900fde72093%3A0x9a2a0f3fc380dbd1!2sWoods%20Lonergan%20PLLC%20-%20Commercial%2C%20Real%20Estate%2C%20Employment%20Law!5e0!3m2!1sen!2s!4v1647317824256!5m2!1sen!2s"
               width="100%"
@@ -784,20 +935,26 @@
       </div>
     </section>
 
-    <div class="call-btn">
-      <a href="#" class="btn-cta btn-lg heading"
-        ><i class="fa-solid fa-phone-flip phone-icon-call-btn"></i> Call woods
-        Lonergan now : 212.684.2500<i class="fa-solid fa-arrow-right"></i
+    <article class="call-btn">
+      <a
+        href="#"
+        class="heading w90p fw-500 text-lg text-center mb1 btn-cta flex-g1"
+        ><i
+          class="fa-solid fa-phone-flip w2 h2 flex border-sec border-rounded-05 text-sm"
+        ></i>
+        Call woods Lonergan now : 212.684.2500<i
+          class="fa-solid fa-arrow-right"
+        ></i
       ></a>
-    </div>
+    </article>
 
-    <footer id="footer">
-      <div class="footer container">
-        <div class="logo">
+    <footer id="footer" class="py2 bg-grey-2">
+      <div class="footer container grid">
+        <div class="logo w20">
           <img src="./img/woods-logo.svg" alt="" class="logo-img" />
         </div>
 
-        <p class="footer-desc">
+        <p class="footer-desc text-xs text-end">
           © 2022 Woods Lonergan PLLC | Phone: 212.684.2500 <br />
           280 Madison Avenue, Suite 300, New York, NY 10016 <br />
           Attorney Advertising |
@@ -805,14 +962,25 @@
           <a href="#" class="footer-link">Privacy Policy</a> <br />
           Website Development by <span class="heading">Omnizant</span>
         </p>
-        <div class="social-icons">
-          <a href="#" class="social-icon">
+        <div
+          class="social-icons grid-col-span-end justify-content-center flex-g05"
+        >
+          <a
+            href="#"
+            class="social-icon transition w2 h2 br50 bg-pri color-sec flex"
+          >
             <i class="fa-brands fa-facebook-f"></i>
           </a>
-          <a href="#" class="social-icon">
+          <a
+            href="#"
+            class="social-icon transition w2 h2 br50 bg-pri color-sec flex"
+          >
             <i class="fa-brands fa-linkedin-in"></i>
           </a>
-          <a href="#" class="social-icon">
+          <a
+            href="#"
+            class="social-icon transition w2 h2 br50 bg-pri color-sec flex"
+          >
             <i class="fa-brands fa-twitter"></i>
           </a>
         </div>

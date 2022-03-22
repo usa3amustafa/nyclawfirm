@@ -27,34 +27,7 @@ button {
   transition: all 0.3s ease-in-out;
 }
 .btn-cta:hover {
-  background-color: #061a35;
-  color: #ffffff;
-}
-
-.contact-info:hover {
-  color: #f9c36c;
-}
-
-.social-icon:hover {
-  background-color: #061a35;
-}
-
-.nav-link:hover {
-  color: rgba(6, 26, 53, 0.5);
-}
-
-.nav-link:hover .down-icon {
-  color: rgba(6, 26, 53, 0.5);
-}
-
-.about-section-4-btn-cta:hover {
-  background-color: #ffffff;
-  color: #333;
-}
-
-.slider-btn:hover {
-  background-color: #f9c36c;
-  color: #ffffff;
+  background-color: yellow;
 }
 
 .key-points {
@@ -306,8 +279,8 @@ section {
   height: 2rem;
 }
 
-.h120vh {
-  height: 120vh;
+.h100vh {
+  height: 100vh;
 }
 
 .br50 {
@@ -592,35 +565,6 @@ section {
   display: inline-block;
 }
 
-nav .drop-down {
-  position: relative;
-}
-nav .sub-menu {
-  position: absolute;
-  height: 0;
-  overflow: hidden;
-  margin-left: 1rem;
-  transition: all 0.3s ease-in-out;
-}
-nav .sub-menu li {
-  padding: 1rem 2rem;
-  background-color: #f3f6f9;
-  border-bottom: 1px solid #f9c36c;
-}
-nav .sub-menu li > a {
-  color: #333;
-}
-nav .sub-menu li:hover {
-  background-color: #ccc;
-}
-nav .sub-menu li:last-child {
-  border-bottom: none;
-}
-nav .drop-down:hover .sub-menu {
-  height: auto;
-  z-index: 1;
-}
-
 .video-bg {
   position: relative;
 }
@@ -651,7 +595,7 @@ nav .drop-down:hover .sub-menu {
 }
 
 #recent-cases-section {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.7)), url("../../img/lady-justice.jpg");
+  background-image: url("../../img/lady-justice.jpg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -674,265 +618,4 @@ nav .drop-down:hover .sub-menu {
   z-index: 2;
 }
 
-@media (max-width: 1024px) {
-  header .header {
-    display: block;
-  }
-  header .header .logo .logo-img {
-    width: 20rem;
-  }
-  header .header .contact-nav {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  header .header .contact-nav .contact {
-    order: 2;
-  }
-  header .header .contact-nav nav {
-    order: 1;
-  }
-
-  .video-bg .text-overlay {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 2rem;
-  }
-  .video-bg .text-overlay .right-col {
-    align-self: center;
-    max-width: 500px;
-  }
-
-  .intro-section {
-    grid-template-columns: 1fr;
-    max-width: 800px;
-  }
-  .intro-section .intro-section-text {
-    margin-bottom: 2rem;
-  }
-  .intro-section .intro-section-img {
-    max-width: 600px;
-  }
-
-  .services-section {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 800px;
-  }
-
-  .about-section-1 {
-    grid-template-columns: 1fr;
-    max-width: 800px;
-  }
-  .about-section-1 .about-section-1-img {
-    max-width: 600px;
-    margin-bottom: 2rem;
-  }
-
-  #recent-cases-section .container {
-    max-width: 800px;
-  }
-  #recent-cases-section .recent-cases-section .case-results {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-  #recent-cases-section .recent-cases-section .case-results .case-result {
-    margin-bottom: 2rem;
-  }
-
-  #testimonials-section .container {
-    max-width: 800px;
-  }
-  #testimonials-section .testimonials-section .testimonials {
-    grid-template-columns: 1fr;
-  }
-  #testimonials-section .testimonials-section .testimonials-section-img {
-    display: none;
-  }
-
-  #about-section-2 .about-section-2 {
-    column-gap: 2rem;
-  }
-
-  #about-section-3 .about-section-3 {
-    column-gap: 2rem;
-  }
-
-  .blog-posts-section .blog-posts {
-    column-gap: 1rem;
-  }
-  .blog-posts-section .blog-posts .blog-post-title {
-    font-size: 1rem;
-  }
-  .blog-posts-section .blog-posts .read-more {
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-  }
-
-  #about-section-4 .container {
-    max-width: 800px;
-  }
-  #about-section-4 .about-section-4 {
-    grid-template-columns: 1fr;
-  }
-  #about-section-4 .about-section-4 .right-col {
-    display: none;
-  }
-
-  #about-section-5 .about-section-5 {
-    column-gap: 2rem;
-  }
-
-  #about-section-6 .about-section-6 {
-    column-gap: 2rem;
-  }
-
-  #contact-us-section .container {
-    max-width: 800px;
-  }
-  #contact-us-section .contact-us-section {
-    grid-template-columns: 1fr;
-  }
-  #contact-us-section .contact-us-section .contact-us-left {
-    margin-bottom: 2rem;
-  }
-
-  #footer .footer {
-    grid-template-columns: 1fr 3fr;
-  }
-
-  .key-points {
-    grid-template-columns: 1fr;
-  }
-}
-@media (max-width: 850px) {
-  header .header {
-    display: block;
-  }
-  header .header .logo .logo-img {
-    width: 20rem;
-  }
-  header .header .contact-nav {
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  header .header .contact-nav .contact {
-    order: 2;
-  }
-  header .header .contact-nav nav {
-    order: 1;
-  }
-
-  .video-bg .text-overlay {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 2rem;
-  }
-  .video-bg .text-overlay .right-col {
-    align-self: center;
-    max-width: 500px;
-  }
-
-  .intro-section {
-    grid-template-columns: 1fr;
-    max-width: 800px;
-  }
-  .intro-section .intro-section-text {
-    margin-bottom: 2rem;
-  }
-  .intro-section .intro-section-img {
-    max-width: 600px;
-  }
-
-  .services-section {
-    grid-template-columns: repeat(2, 1fr);
-    max-width: 800px;
-  }
-
-  .about-section-1 {
-    grid-template-columns: 1fr;
-    max-width: 800px;
-  }
-  .about-section-1 .about-section-1-img {
-    max-width: 600px;
-    margin-bottom: 2rem;
-  }
-
-  #recent-cases-section .container {
-    max-width: 800px;
-  }
-  #recent-cases-section .recent-cases-section .case-results {
-    grid-template-columns: 1fr;
-    justify-items: center;
-  }
-  #recent-cases-section .recent-cases-section .case-results .case-result {
-    margin-bottom: 2rem;
-  }
-
-  #testimonials-section .container {
-    max-width: 800px;
-  }
-  #testimonials-section .testimonials-section .testimonials {
-    grid-template-columns: 1fr;
-  }
-  #testimonials-section .testimonials-section .testimonials-section-img {
-    display: none;
-  }
-
-  #about-section-2 .about-section-2 {
-    column-gap: 2rem;
-  }
-
-  #about-section-3 .about-section-3 {
-    column-gap: 2rem;
-  }
-
-  .blog-posts-section .blog-posts {
-    column-gap: 1rem;
-  }
-  .blog-posts-section .blog-posts .blog-post-title {
-    font-size: 1rem;
-  }
-  .blog-posts-section .blog-posts .read-more {
-    padding: 0.5rem 1rem;
-    font-size: 0.875rem;
-  }
-
-  #about-section-4 .container {
-    max-width: 800px;
-  }
-  #about-section-4 .about-section-4 {
-    grid-template-columns: 1fr;
-  }
-  #about-section-4 .about-section-4 .right-col {
-    display: none;
-  }
-
-  #about-section-5 .about-section-5 {
-    column-gap: 2rem;
-  }
-
-  #about-section-6 .about-section-6 {
-    column-gap: 2rem;
-  }
-
-  #contact-us-section .container {
-    max-width: 800px;
-  }
-  #contact-us-section .contact-us-section {
-    grid-template-columns: 1fr;
-  }
-  #contact-us-section .contact-us-section .contact-us-left {
-    margin-bottom: 2rem;
-  }
-
-  #footer .footer {
-    grid-template-columns: 1fr 3fr;
-  }
-
-  .key-points {
-    grid-template-columns: 1fr;
-  }
-}
-
-/*# sourceMappingURL=main.min.css.map */
+/*# sourceMappingURL=main.css.map */
